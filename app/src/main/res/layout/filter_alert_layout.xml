@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:id="@+id/llTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tvClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/margin_default"
+            android:visibility="visible"
+            tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            fontPath="Proxima-Nova-Semibold.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Filters"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/margin_default" />
+
+        <TextView
+            android:id="@+id/tvDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/margin_default"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/llTitleLayout"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@color/colorGray" />
+
+    <LinearLayout
+        android:id="@+id/llLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vTitle"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_default"
+        android:paddingLeft="@dimen/margin_default"
+        android:paddingTop="@dimen/margin_default"
+        android:visibility="visible"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:id="@+id/llTextContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tvLocationText"
+                fontPath="Proxima-Nova-Semibold.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/tv_location"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/font_medium" />
+
+            <TextView
+                android:id="@+id/tvStateTxt"
+                fontPath="Proxima-Nova-Semibold.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Select location"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/font_xxxstandard" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_weight="9"
+            android:src="@drawable/ic_next_arrow" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vLocation"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/llLocation"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@color/colorGray" />
+
+    <LinearLayout
+        android:id="@+id/llGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vLocation"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_default">
+
+        <TextView
+            android:id="@+id/tvGender"
+            fontPath="Proxima-Nova-Semibold.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="Gender"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_medium" />
+
+        <LinearLayout
+            android:id="@+id/llGenderRadioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvInstructions"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rb_male_selector"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:text="@string/tv_male"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/gender_text_selector"
+                    android:textSize="@dimen/font_standard"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rb_female_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:text="@string/tv_female"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/gender_text_selector"
+                    android:textSize="@dimen/font_standard"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vRating"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/llGender"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@color/colorGray" />
+
+    <LinearLayout
+        android:id="@+id/llRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vRating"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_default">
+
+        <TextView
+            android:id="@+id/tvRating"
+            fontPath="Proxima-Nova-Semibold.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="Rating"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_medium" />
+
+        <LinearLayout
+            android:id="@+id/llRatingRadioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rgRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/rbHighestRatings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rb_male_selector"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:text="@string/tv_highest_rating"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/gender_text_selector"
+                    android:textSize="@dimen/font_standard"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rbMostViewed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rb_female_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:text="@string/tv_most_viewed"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/gender_text_selector"
+                    android:textSize="@dimen/font_standard"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

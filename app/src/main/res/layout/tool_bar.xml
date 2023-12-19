@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="fill_parent"
+    android:layout_height="56dp"
+    android:background="@color/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+
+    app:contentInsetStart="0dp"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageView
+        android:id="@+id/btn_toolbar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground"
+        android:padding="20dp"
+        android:src="@drawable/ic_menu"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_toolbar_title"
+        android:fontFamily="@font/calibrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tv_explore"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <AutoCompleteTextView
+        android:id="@+id/et_toolbar_search"
+        android:layout_width="@dimen/toolbar_search_width"
+        android:layout_height="32dp"
+        android:layout_gravity="left"
+        android:background="@drawable/btn_signup_shape"
+        android:drawableLeft="@drawable/ic_searchs"
+        android:drawablePadding="10dp"
+        android:ems="20"
+        android:hint="@string/hint_search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_toolbar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|right"
+        android:background="?selectableItemBackground"
+        android:padding="20dp"
+        android:src="@drawable/ic_search"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:padding="20dp"
+        android:src="@drawable/ic_gray_del"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_toolbar_close"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground"
+        android:layout_gravity="end"
+        android:padding="15dp"
+        android:fontFamily="@font/calibri"
+        android:text="Close"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/font_medium"
+        android:visibility="gone" />
+
+</androidx.appcompat.widget.Toolbar>

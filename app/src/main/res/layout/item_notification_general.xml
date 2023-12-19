@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMainContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/margin_default"
+>
+
+    <TextView
+        android:id="@+id/tvUnread"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:background="@drawable/notify_badge"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jun-04-2018"
+        android:fontFamily="@font/calibri"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:textColor="@color/colorCharcolDark"
+        app:layout_constraintRight_toLeftOf="@+id/tvUnread"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivNotif"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:text="xxxxxxxxxxx"
+        android:fontFamily="@font/calibri"
+        android:textColor="@color/colorBlackMore"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintStart_toEndOf="@+id/ivNotif"
+        app:layout_constraintTop_toTopOf="@id/ivNotif" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:fontFamily="@font/calibri"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:text="xxxxxxxxxxx"
+        android:textColor="@color/colorCharcol"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

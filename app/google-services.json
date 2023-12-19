@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "606569114625",
+    "project_id": "sharehubapp-27c71",
+    "storage_bucket": "sharehubapp-27c71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606569114625:android:7d2be4e99e45085bcaa400",
+        "android_client_info": {
+          "package_name": "com.mobiletouch.sharehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606569114625-gnsaqgutg8s90kol4jlihg0ird3c0p5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf6xa-wrSquFisPV-5u6OOPVclYVxAJ2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606569114625-gnsaqgutg8s90kol4jlihg0ird3c0p5q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "606569114625-gmto6ebob757kp5nd27p766hrsnn44rp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobiletouch.sharehub",
+                "app_store_id": "1461764253"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

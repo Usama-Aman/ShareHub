@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">Share Hub</string>
+    <!-- <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAuxhu5F8685gF4jtOo2DVHqDxPzEST4Yc</string>-->
+    <string name="google_maps_key">AIzaSyDB9zVoMjvKYpyCk-0uGQee25tt23igaNM</string>
+
+    <string name="tv_alert_success">تم بنجاح</string>
+    <string name="tv_alert_ok">حسنا</string>
+    <string name="no_Data_found_text">لم يتم العثور على بيانات بعد.</string>
+    <string name="alert_request_timeout">  الرجاء المحاولة مرة أخرى</string>
+    <string name="alert_internet_connection">يرجى الاتصال بالإنترنت والمحاولة مرة أخرى</string>
+    <string name="alert_information">معلومات</string>
+    <string name="alert_api_not_found">لم يتم العثور على API!</string>
+    <string name="alert_internal_server_error">خطأ في الخادم الداخلي</string>
+
+    <string name="tv_welcome">مرحبًا بك مرة أخرى</string>
+    <string name="tv_new_to_gcam">جديد على Share Hub؟</string>
+    <string name="tv_sign_up_now">أفتح حساب جديدالأن</string>
+    <string name="tv_email">البريد الإلكتروني</string>
+    <string name="tv_donot_have_sign_up">لا تملك حساب؟</string>
+    <string name="tv_now_to_gcam">كنت على وشك الانتهاء</string>
+    <string name="tv_get_started">البدء</string>
+    <string name="tv_forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="tv_forgot_pass">هل نسيت كلمة المرور</string>
+    <string name="tv_password">كلمه السر</string>
+    <string name="tv_confirm_password">تأكيد كلمة المرور</string>
+    <string name="tv_mobile_number">رقم المحمول</string>
+    <string name="tv_already_had_account">بالفعل لدي حساب.</string>
+    <string name="tv_email_address">عنوان البريد الإلكتروني</string>
+    <string name="hint_search">بحث</string>
+    <string name="tv_name">اسم</string>
+    <string name="tv_user_name">اسم المستخدم</string>
+    <string name="tv_sign_up">سجل</string>
+    <string name="tv_reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="tv_reset_your_password">اعد ضبط كلمه السر</string>
+    <string name="tv_phone_number">رقم الهاتف</string>
+    <string name="tv_verify_counter">30</string>
+    <string name="tv_verify_seconds">ثواني</string>
+    <string name="tv_verify_code">رمز التحقق</string>
+    <string name="tv_by_proceeding">من خلال Proceeding يجب عليك إدخال 4 أرقام \ n الرمز أدناه الذي تلقيته في الرسائل القصيرة</string>
+    <string name="tv_enter_the_code_limitions">رمز الدخول ستتنتهي صلاحيتة بعد ١٨ دقيقة</string>
+
+    <string name="tv_verify">التحقق </string>
+    <string name="tv_resend"> إعادة الارسال</string>
+    <string name="error_msg_email">ارجاء عنوان البريد الإلكتروني </string>
+    <string name="error_msg_valid_email">الرجاءإدخال بريد إلكتروني صحيح</string>
+    <string name="error_msg_phone">الرجاء ادخال رقم الهاتف </string>
+    <string name="error_msg_code"> الرجاء ادخال رمز التحقق </string>
+    <string name="error_msg_password">الرجاء ادخال كلمة المرور </string>
+    <string name="error_msg_password_limit">كلمة المرور يجب أن تتكون من 6 أحرف على الأقل</string>
+    <string name="error_msg_name">الرجاءادخال الاسم</string>
+    <string name="tv_error">خطأ</string>
+    <string name="tv_settings">الاعدادات</string>
+    <string name="tv_about">عن التطبيق</string>
+    <string name="tv_only_load_via_wifi">لا يتم التحميل إلا عبر شبكة Wi-Fi</string>
+    <string name="tv_terms_conditions">الأحكام والشروط</string>
+    <string name="tv_privacy_policy">سياسة الخصوصية</string>
+    <string name="tv_explore">اكتشف </string>
+    <string name="tab_events">أحداث</string>
+    <string name="tab_create_event">انشاء حدث</string>
+    <string name="tab_notification">إشعارات</string>
+    <string name="tab_settings">الاعدادات</string>
+    <string name="tv_favorites">المفضلة</string>
+    <string name="tv_male">الذكر </string>
+    <string name="tv_female">إناثا</string>
+    <string name="tv_location">موقعك</string>
+    <string name="tv_highest_rating">أعلى تقييم</string>
+    <string name="tv_most_viewed">الأكثر مشاهدة</string>
+    <string name="tv_logout">تسجيل خروج </string>
+    <string name="alert_file_not_found">يرجى الاتصال بالإنترنت والمحاولة مرة أخرى</string>
+    <string name="tv_signIn">تسجيل الدخول</string>
+    <string name="tv_profile">الملف الشخصي</string>
+
+    <!-- facebook app credential-->
+    <string name="facebook_app_id">237938870278989</string>
+    <string name="error_msg_password_not_match">    تم ادخال رقم سري خاطئ. الرجاء ادخال الرقم الصحيح </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_hint">بحث</string>
+    <string name="past">ماضي</string>
+    <string name="live">مباشر</string>
+    <string name="future">مستقبل</string>
+    <string name="sort">التصفية والتصنيف </string>
+    <string name="filter">تصفية</string>
+    <string name="title">عنوان</string>
+    <string name="distance">مسافه: بعد</string>
+    <string name="location">موقعك</string>
+    <string name="creater">منشئ الحدث</string>
+    <string name="popular">جمع</string>
+    <string name="time">زمن</string>
+    <string name="finished">مستقبل</string>
+    <string name="date">تاريخ</string>
+    <string name="notstarted">لم يبدأ</string>
+    <string name="applay">تطبيق</string>
+    <string name="resetcancel">إعادة الضبط والإلغاء</string>
+
+    <!--    Create event attributes    -->
+    <string name="tv_private_event">حدث خاص</string>
+    <string name="tv_public_event">حدث عام</string>
+    <string name="tv_event_title">عنوان الحدث</string>
+    <string name="tv_description">وصف</string>
+    <string name="tv_start_date">تاريخ البدء</string>
+    <string name="tv_start_time">وقت البدء</string>
+    <string name="tv_cover_photo">صورة الغلاف</string>
+    <string name="tv_choose_file">اختر ملف</string>
+    <string name="tv_no_file_chosen">لم تقم باختيار ملف</string>
+    <string name="tv_venue">مكان</string>
+    <string name="tv_detail">التفاصيل</string>
+    <string name="tv_event_category">فئة الحدث</string>
+    <string name="tv_comments_allowed">السماح بالتعليقات</string>
+    <string name="tv_add_people">اضافة اشخاص</string>
+    <string name="tv_create">إنشاء</string>
+    <string name="tv_update">تحديث</string>
+    <string name="tv_add">إضافة</string>
+    <string name="tv_pincode">أدخل الرمز السري</string>
+    <string name="tv_approval_required"> لم يتم الموافقة على الحضور </string>
+    <string name="tv_pin_code">الرقم السري</string>
+    <string name="tv_user_list">قائمة المستخدم</string>
+    <string name="tv_noeventsfound">لم يتم العثور على سجل أحداث</string>
+    <string name="alert_msg_unknown">لا توجد نتيجة أكثر </string>
+    <string name="status_attending">حضور؟</string>
+    <string name="status_cancel">إلغاء </string>
+    <string name="tv_select_language">اختار اللغة</string>
+    <string name="button_invite_text">دعوة الأصدقاء للانضمام لدينا</string>
+    <string name="button_create_group">انشاء مجموعة</string>
+    <string name="button_manage_group"> المستخدمين المحظورين</string>
+    <string name="button_add">أضف</string>
+    <string name="error_msg_field_required">الرجاء تعبئة الحقول المطلوبة</string>
+    <string name="tv_my_groups">مجموعاتي</string>
+    <string name="tv_language">English</string>
+    <string name="tv_english">English</string>
+    <string name="tv_arabic">عربى</string>
+    <string name="tv_sort_by">ترتيب حسب</string>
+
+    <!--user profile -->
+    <string name="follower">متابعين</string>
+    <string name="tv_myEvents">أحداثي</string>
+    <string name="tv_attending">الاحداث التي ساحضرها </string>
+    <string name="tv_users_attending">الحاضرون </string>
+    <string name="tv_users_event">احداث المستخدم</string>
+    <string name="tv_my_profile">ملفي</string>
+    <string name="tv_follow">متابعة</string>
+    <string name="tv_update_event">تحديث الحدث</string>
+    <string name="txt_overview">تفاصيل الحدث</string>
+    <string name="txt_people">المدعوون </string>
+    <string name="txt_comments">تعليقات</string>
+    <string name="txt_venue">مكان:</string>
+    <string name="txt_createdby">تم الانشاء من قبل:</string>
+    <string name="txt_invite_selected">اضافة اصدقاء للحدث  </string>
+    <string name="txt_invite_friends">دعوة الأصدقاء للانضمام للحدث</string>
+    <string name="txt_attending">حضور</string>
+    <string name="tvsend">إرسال</string>
+    <string name="txt_invite"> دعوة</string>
+    <string name="txt_userList">قائمة المستخدم</string>
+    <string name="txt_edit">تصحيح</string>
+    <string name="txt_addEvent">منقي</string>
+    <string name="tv_pin_code_instruction">الرجاء إدخال الرقم السري لحضور هذا الحدث.</string>
+    <string name="txt_eventDetail">تفاصيل الحدث</string>
+    <string name="tv_cancel">إلغاء</string>
+
+    <string name="tv_full_name">الاسم الكامل</string>
+    <string name="tv_contact">رقم الهاتف المحمول</string>
+    <string name="tv_address">عنوان</string>
+    <string name="tv_save">حفظ</string>
+    <string name="text_media">وسائل الإعلام</string>
+    <string name="text_gallery">صالة عرض</string>
+    <string name="text_video">فيديو</string>
+    <string name="tv_internet">الرجاء التحقق من اتصال الانترنت الخاص بك</string>
+    <string name="tv_create_group">إنشاء مجموعة</string>
+    <string name="tv_ok">حسنا</string>
+    <string name="tv_enter_group_name">أدخل اسم المجموعة</string>
+    <string name="tv_delete_group">هل تريد حذف هذه المجموعة؟</string>
+    <string name="tv_delete_group_member">هل تريد حذف هذا العضو في المجموعة؟</string>
+    <string name="tv_block_group_member">هل تريد حظر عضو المجموعة هذا؟</string>
+    <string name="tv_remove_from_block_list">هل تريد إزالة هذا المستخدم من قائمة الحظر؟</string>
+    <string name="tv_photo_selection_size">يسمح بادخال ١٠ صور كحد اقصى.</string>
+    <string name="tv_photo_select">يرجى اختيار الصور للتنزيل</string>
+    <string name="tv_video_select">يرجى تحديد مقاطع الفيديو للتنزيل</string>
+    <string name="button_view_comments_text">عرض التعليقات</string>
+    <string name="tv_message">رسالة </string>
+    <string name="tv_submit">ادخال </string>
+    <string name="error_msg_username">الرجاء ادخال اسم المستخدم</string>
+    <string name="tv_user_profile_title">ملفي</string>
+    <string name="tv_followersEvents">متابعة الأحداث</string>
+    <string name="tv_edit_profile">تعديل الملف الشخصي</string>
+
+    <string name="tv_delete_from_gallery_list">هل تريد إزالة هذه الصور؟</string>
+    <string name="tv_delete_from_video_list">هل تريد إزالة مقاطع الفيديو هذه؟</string>
+    <string name="tv_media_download">  تم تحميل الوسائط المحددة بنجاح</string>
+    <string name="error_msg_event_title">الرجاء ادخال عنوان الحدث </string>
+    <string name="error_msg_event_description">وصف الحدث مطلوب</string>
+    <string name="error_msg_event_start_date">تاريخ بدء الحدث مطلوب</string>
+    <string name="error_msg_event_start_time">وقت بدء الحدث مطلوب</string>
+    <string name="error_msg_event_location">موقع الحدث مطلوب</string>
+    <string name="error_msg_event_detail">تفاصيل الحدث مطلوبة</string>
+    <string name="error_msg_event_category"> الرجاء ادخال فئة الحدث </string>
+    <string name="tv_group_success">تم انشاء المجموعة بنجاح </string>
+    <string name="tv_unfollow">الغاء المتابعة</string>
+
+    <string name="tv_select_users">اختر المستخدم</string>
+    <string name="tv_notification">إشعارات</string>
+    <string name="tv_update_group">تحديث المجموعة</string>
+    <string name="tv_select_atleast">حدد على الأقل مستخدم واحد</string>
+    <string name="tv_users_added_success">أضاف المستخدم إلى المجموعة بنجاح</string>
+    <string name="error_msg_event_image">صورة الحدث مطلوبة</string>
+    <string name="tv_contactus">تواصل معنا</string>
+    <string name="tv_areaofinterest">مجال الاهتمام</string>
+    <string name="tv_EventCat">أنا مهتم في (فئة الحدث)</string>
+    <string name="tv_EventCatSelection">إذا لم يكن هناك اختيار ، فستتلقى اشعارا على جميع الأنواع</string>
+    <string name="tv_visibility">الظهور</string>
+    <string name="tv_show">عرض الاحداث التي سأحضرها </string>
+    <string name="tv_mute">كتم كل الإشعارات</string>
+    <string name="tv_termsandcondition">الأحكام والشروط</string>
+    <string name="tv_aboutUS">معلومات عنا</string>
+    <string name="tv_contactUS">اتصل بنا</string>
+
+    <string name="tv_contentPages_termsandcondition">الأحكام والشروط</string>
+    <string name="tv_contentPages_aboutUS">معلومات عنا</string>
+    <string name="tv_contentPages_contactUS">اتصل بنا</string>
+    <string name="hint_enter_group_name">أدخل اسم المجموعة</string>
+    <string name="title_blocked_user_list">قائمة المستخدمين المحضورين</string>
+    <string name="alert_select_media">يرجى تحديد وسائط للحذف</string>
+    <string name="alert_select_image">يرجى اختيار الصورة</string>
+    <string name="alert_permission_denied">تم رفض الإذن ، يرجى السماح بالمتابعة!</string>
+    <string name="alert_permission_required_image">هذا الإذن مطلوب لتحميل الصورة</string>
+    <string name="alert_permission_required_video">هذا الإذن مطلوب لتحميل الفيديو</string>
+    <string name="alert_finish_uploading">يرجى الانتظار حتى الانتهاء من التحميل ....</string>
+    <string name="alert_share_intent_group">تحقق من تطبيق Share Hub. أنا استخدم هذا للبحث عن الأحداث في المدينة. احصل عليه مجانًا على</string>
+
+    <!--new-->
+    <string name="tv_followers"> المتابعون </string>
+    <string name="alert_select_video"> الرجاء تحديد فيديو </string>
+    <string name="alert_media_download"> Share Hub Media Download </string>
+    <string name="alert_preparing_media_download"> جارٍ التحميل  </string>
+    <string name="alert_media_download_complete"> تم التحميل  </string>
+    <string name="alert_media_file_download"> تم تحميل الملف </string>
+    <string name="alert_media_downloaded"> تم التحميل </string>
+    <string name="alert_logout_txt">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="alert_logout">الخروج</string>
+    <string name="alert_logout_cancel">إلغاء</string>
+    <string name="alert_openGallery"> اختر من المعرض </string>
+    <string name="alert_openCamera"> فتح الكاميرا </string>
+    <string name="tv_contact_profile"> رقم الاتصال: </string>
+    <string name="tv_email_profile"> البريد الإلكتروني: </string>
+    <string name="tv_Followers">المتابعون</string>
+
+    <string name="jan">يناير</string>
+    <string name="feb">فبراير</string>
+    <string name="mar">مارس</string>
+    <string name="apr">أبريل</string>
+    <string name="may">مايو</string>
+    <string name="jun">يونيو</string>
+    <string name="jul">يوليو</string>
+    <string name="aug">أغسطس</string>
+    <string name="sep">سبتمبر</string>
+    <string name="oct">أكتوبر</string>
+    <string name="nov">نوفمبر</string>
+    <string name="dec">ديسمبر</string>
+
+    <string name="sat">السبت </string>
+    <string name="sun">الأحد</string>
+    <string name="mon">الإثنين</string>
+    <string name="tue">الثلاثاء</string>
+    <string name="wed">الأربعاء</string>
+    <string name="thu">الخميس</string>
+    <string name="fri">الجمعة</string>
+
+    <string name="tv_select_category">اختر الفئة</string>
+    <string name="tv_cancel_txt">هل أنت متأكد أنك تريد إلغاء هذا الحدث؟</string>
+    <string name="tv_yes">نعم متأكد</string>
+    <string name="tv_no">لا</string>
+    <string name="tv_open_media">كن أول من يقوم بتحميل الصور.</string>
+    <string name="error_msg_pincode">الرجاء ادخال رمز صحيح </string>
+    <string name="tv_no_comments"> لم يتم العثور على تعليقات </string>
+    <string name="tv_markRead">ضع علامة بأنه تم القراءة</string>
+    <string name="tv_Pending">قيد الانتظار</string>
+    <string name="tv_countries">بلدان</string>
+    <string name="tv_view_media">عرض جميع الميديا</string>
+
+    <string name="txt_choose_from_gallery"> اختر من المعرض </string>
+    <string name="txt_open_camera"> افتح الكاميرا </string>
+    <string name="txt_skip"> تخطي </string>
+
+
+    <string name="error_msg_group_user">الرجاء إضافة مجموعة واحدة أو مستخدم</string>
+
+    <string name="tv_select">تحديد</string>
+    <string name="msg_select_photos_download">الرجاء اختيار الصور المراد تحميلها اولا</string>
+    <string name="msg_select_videos_download">الرجاء اختيار الفيديو المراد تحميله اولا</string>
+    <string name="error_msg_not_approved_for_media">أنت بحاجة إلى موافقة للوصول إلى وسائط الأحداث</string>
+    <string name="error_msg_not_attending_for_media">لا يمكنك الوصول إلى وسائط الحدث لأنك غير موجود في قائمة الحضور في الحدث. يرجى النقر على "الحضور"</string>
+    <string name="tv_pin_code_media">رمز Pin مطلوب للوصول إلى وسائط هذا الحدث</string>
+
+
+    <!-- AUTOCOMPLETE -->
+
+    <!-- Hint for the autocomplete widget's initial query and autocomplete prediction's query field. -->
+    <string name="autocomplete_query_hint" translatable="false">(Initial) Query</string>
+
+    <!-- Hint for the autocomplete fragment's hint. -->
+    <string name="autocomplete_hint_hint" translatable="false">(Fragment-only) Hint</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's country field. -->
+    <string name="autocomplete_country_hint" translatable="false">Country</string>
+
+    <!-- Hint Text for the autocomplete prediction's and widget's type filter field. -->
+    <string name="autocomplete_type_filter" translatable="false">Type Filter</string>
+
+
+    <!-- Label for the autocomplete prediction's and widget's location bias related fields. -->
+    <string name="autocomplete_location_bias_label" translatable="false">Location Bias (format: -33.2, 128.2)</string>
+
+    <!-- Label for the autocomplete prediction's and widget's location restriction related fields. -->
+    <string name="autocomplete_location_restriction_label" translatable="false">Location Restriction (format: -33.2, 128.2)</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's location southwest field. -->
+    <string name="autocomplete_location_south_west_hint" translatable="false">South West (lat, lng)</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's location northeast field. -->
+    <string name="autocomplete_location_north_east_hint" translatable="false">North East (lat, lng)</string>
+
+
+    <!-- Text for enabling autocomplete prediction's and widget's type filter field. -->
+    <string name="autocomplete_use_type_filter" translatable="false">Use TypeFilter?</string>
+
+    <!-- Text for enabling autocomplete prediction's use of session tokens. -->
+    <string name="autocomplete_use_session_token" translatable="false">(Predictions-only) Use session token?</string>
+
+    <!-- Text for autocomplete activity mode (overlay or fullscreen) checkbox. -->
+    <string name="autocomplete_activity_overlay_mode" translatable="false">(Activity-only) Overlay mode?</string>
+
+
+    <!-- Text for the autocomplete fragment update button. -->
+    <string name="autocomplete_fragment_update_button" translatable="false">Update Fragment</string>
+
+    <!-- Text for starting the autocomplete activity button. -->
+    <string name="autocomplete_activity_button" translatable="false">Open Activity</string>
+
+    <!-- Text for the fetch autocomplete predictions submit button. -->
+    <string name="fetch_autocomplete_predictions_button" translatable="false">Fetch Predictions</string>
+
+    <!-- Text for checkbox to set custom list of Place Fields. -->
+    <string name="use_custom_fields" translatable="false">Manually set Place Fields?</string>
+
+    <string name="error_alert_message_invalid_bounds" translatable="false">Unable to parse Location Bias or Location Restriction. Expected format: "33, 128"</string>
+    <!-- title for error alerts. -->
+    <string name="error_alert_title" translatable="false">Uh-Oh!</string>
+
+    <string name="error_some_thing_went_wrong">Something went wrong. Please try again</string>
+    <string name="msg_gps">يرجى تمكين GPS</string>
+    <string name="tv_all_followers">كل المتابعين</string>
+    <string name="tv_errordynamic_share">لا يمكن المشاركة يرجى المحاولة مرة أخرى</string>
+</resources>
+   

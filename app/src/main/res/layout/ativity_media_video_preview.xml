@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        app:srcCompat="@drawable/ic_delete" />
+
+    <FrameLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:indicatorColor="#939393"
+            app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_viewComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/btn_view_comments_selector"
+        android:clickable="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/button_viewComments"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:drawableLeft="@drawable/ic_view_comments"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/calibri"
+            android:gravity="center"
+            android:text="@string/button_view_comments_text"
+            android:textAllCaps="true"
+            android:textColor="#BA0556"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

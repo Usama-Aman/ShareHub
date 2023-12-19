@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clMainContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            tools:ignore="MissingPrefix"
+            app:contentInsetStart="0dp"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="enterAlways|exitUntilCollapsed" >
+
+            <ImageView
+                android:id="@+id/btn_toolbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackground"
+                android:padding="20dp"
+                android:src="@drawable/ic_white_arrow_right"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_toolbar_title"
+                fontPath="fonts/Proxima-Nova-Semibold.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/tv_explore"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_toolbar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|right"
+                android:background="?selectableItemBackground"
+                android:padding="20dp"
+                android:src="@drawable/ic_search"
+                android:visibility="visible" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/add_users_main_content" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

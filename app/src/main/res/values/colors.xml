@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b90464</color>
+    <color name="colorPrimaryDark">#800144</color>
+    <color name="colorAccent">#000000</color>
+
+    <!-- Color Sequence-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#4a4a4a</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorSilverLight">#F3F3F3</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorGrayLight">#CCC</color>
+    <!--<color name="gray_light_more">#f9f7f7</color>-->
+    <color name="colorGrayLightMore">#F9F9F9</color>
+    <color name="colorBlueLight">#00a4db</color>
+    <color name="colorGreen">#008000</color>
+    <color name="colorBlueLightII">#00a2e0</color>
+    <color name="colorOrangeDark">#ffff8800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="txtlightgray">#6b6b6b</color>
+    <color name="txtdarkgray">#4a4a4a</color>
+    <color name="bggray">#f9f9f9</color>
+    <color name="btGray">#dfe3e6</color>
+    <color name="indicatorcolor">#b60663</color>
+    <color name="red">#d10404</color>
+    <color name="colorGreenSuccess">#64d57b</color>
+
+    <color name="colorLightGreen">#27bf6b</color>
+    <color name="yellow">#fff600</color>
+
+    <color name="colorCharcol">#5D5D5D</color>
+    <color name="colorCharcolDark">#3C4C66</color>
+    <color name="colorLightGrey">#F9F9F9</color>
+    <color name="colorCharcolDarkMore">#515151</color>
+    <color name="colorBlackMore">#061324</color>
+    <color name="colorMagenta">#bb0557</color>
+    <color name="barColor">#E4E4E4</color>
+
+
+
+
+</resources>

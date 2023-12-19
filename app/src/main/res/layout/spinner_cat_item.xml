@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:layoutDirection="ltr"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12sdp"
+        android:clickable="false"
+        android:fontFamily="@font/calibri"
+        android:focusable="false"
+        android:layout_centerInParent="true"
+        android:focusableInTouchMode="false"
+        android:textStyle="normal" />
+
+</RelativeLayout>

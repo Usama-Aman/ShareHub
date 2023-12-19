@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrayLightMore"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="rtl"
+    tools:context="com.mobiletouch.sharehub.UserProfileActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProfileEventList"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvNoDataFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/no_Data_found_text"
+        android:textAppearance="@style/tab_text"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
+
+

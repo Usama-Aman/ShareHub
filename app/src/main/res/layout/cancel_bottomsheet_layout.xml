@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_history_menu_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:background="@drawable/round_corners_layout_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center"
+            android:fontFamily="@font/calibrib"
+            android:textAllCaps="false"
+            android:text="@string/tv_cancel_txt"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorGrayLightMore"/>
+
+        <TextView
+            android:id="@+id/tvYes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/calibrib"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/tv_yes"
+            android:textSize="@dimen/font_xxxstandard"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlueLightII"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/round_corners_layout_shape"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/tv_no"
+            android:textSize="@dimen/font_xxxstandard"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlueLightII"/>
+    </LinearLayout>
+</LinearLayout>

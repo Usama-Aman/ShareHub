@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <RelativeLayout
+        android:id="@+id/comment_ly"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:visibility="gone"
+        android:layout_height="@dimen/_150sdp">
+        <EditText
+            android:id="@+id/comment_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_25sdp"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/txt_comments"
+            android:fontFamily="@font/calibri"
+            android:padding="@dimen/_12sdp"
+            android:gravity="top|right"
+            android:textAppearance="@style/tab_text"
+
+            android:textSize="@dimen/_10sdp" />
+        <Button
+            android:id="@+id/btpostComment"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/tvsend"
+            android:textSize="@dimen/_8sdp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/sort_filter_bg"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@+id/comment_ly">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/tvDataNotFound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/calibrib"
+            android:textColor="@color/txtlightgray"
+            android:text="@string/tv_noeventsfound"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        <FrameLayout
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/avi"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                app:indicatorColor="#939393"
+                app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

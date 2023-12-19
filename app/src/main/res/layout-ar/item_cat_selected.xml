@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMainContent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCat"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:background="@drawable/bg_cat_selected"
+        android:text="Dummy txt"
+        android:ellipsize="none"
+        android:drawableLeft="@drawable/ic_top_cross"
+        android:drawablePadding="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:src="@drawable/ic_placeholder"
+        android:singleLine="true"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        tools:ignore="MissingPrefix"/>
+
+
+
+</RelativeLayout>

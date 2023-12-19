@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">Share Hub</string>
+    <!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCMTP0kkawE6wMUM2TnlEwX_rdThQRCiPw</string>-->
+    <!--    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAuxhu5F8685gF4jtOo2DVHqDxPzEST4Yc</string>-->
+<!--    <string name="google_maps_key" >AIzaSyDB9zVoMjvKYpyCk-0uGQee25tt23igaNM</string>-->
+    <string name="google_maps_key" >AIzaSyDsLUzrUxVN2CJZqLWz0oFFCdVtD4wR3rI</string>
+    <string name="tv_alert_success">Success</string>
+    <string name="tv_alert_ok">Ok</string>
+    <string name="no_Data_found_text">No data found yet.</string>
+    <string name="alert_request_timeout">Request time out , Please try again</string>
+    <string name="alert_internet_connection">Please connect to the internet and try again</string>
+    <string name="alert_information">Information</string>
+    <string name="alert_api_not_found">API is not found!</string>
+    <string name="alert_internal_server_error">Internal Server Error</string>
+
+    <string name="tv_welcome">Hello there,\nWelcome back</string>
+    <string name="tv_new_to_gcam">New to Share Hub?</string>
+    <string name="tv_sign_up_now">Sign up now</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_donot_have_sign_up">Don`t have an account? </string>
+    <string name="tv_now_to_gcam">You`re almost finished</string>
+    <string name="tv_get_started">Get started</string>
+    <string name="tv_forgot_password">Forgot password?</string>
+    <string name="tv_forgot_pass">Forgot Password</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_confirm_password">Confirm Password</string>
+    <string name="tv_mobile_number">Mobile no</string>
+    <string name="tv_already_had_account">Already I had an account. </string>
+    <string name="tv_email_address">Email address</string>
+    <string name="hint_search">Search</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_user_name">Username</string>
+    <string name="tv_sign_up">Sign Up</string>
+    <string name="tv_reset_password">Reset password</string>
+    <string name="tv_reset_your_password">Reset your password</string>
+    <string name="tv_phone_number">Phone Number</string>
+    <string name="tv_verify_counter">30</string>
+    <string name="tv_verify_seconds">Seconds</string>
+    <string name="tv_verify_code">Verification Code</string>
+    <string name="tv_by_proceeding">By Proceeding you must enter the 4 digit\ncode below that you received in sms</string>
+    <string name="tv_enter_the_code_limitions">The Verification Code will expire in 18 minutes</string>
+
+    <string name="tv_verify">Verify</string>
+    <string name="tv_resend"> Resend</string>
+    <string name="error_msg_email">Email Address is required</string>
+    <string name="error_msg_valid_email">Please enter the Valid Email</string>
+    <string name="error_msg_phone">Phone Number is required</string>
+    <string name="error_msg_code">Verification Code is required</string>
+    <string name="error_msg_password">Password is required</string>
+    <string name="error_msg_password_limit">Password must be atleast 6 characters</string>
+    <string name="error_msg_name">Name is required</string>
+    <string name="tv_error">Error</string>
+    <string name="tv_settings">Settings</string>
+    <string name="tv_about">About</string>
+    <string name="tv_only_load_via_wifi">Only load via Wi-Fi</string>
+    <string name="tv_terms_conditions">Terms and Conditions</string>
+    <string name="tv_privacy_policy">Privacy Police</string>
+    <string name="tv_explore">Explore</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_create_event">Create Event</string>
+    <string name="tab_notification">Notification</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tv_favorites">Favorites</string>
+    <string name="tv_male">Male</string>
+    <string name="tv_female">Female</string>
+    <string name="tv_location">Location</string>
+    <string name="tv_highest_rating">Highest Ratings</string>
+    <string name="tv_most_viewed">Most Viewed</string>
+    <string name="tv_logout">Logout</string>
+    <string name="alert_file_not_found">Please connect to the internet and try again</string>
+    <string name="tv_signIn">Sign In</string>
+    <string name="tv_profile">Profile</string>
+
+    <!-- facebook app credential-->
+    <string name="facebook_app_id">237938870278989</string>
+    <string name="error_msg_password_not_match">Confirm Password is not matching.Please enter correct one.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_hint">Search</string>
+    <string name="past">Past</string>
+    <string name="live">Live</string>
+    <string name="future">Future</string>
+    <string name="sort">Filtering &amp; Sorting</string>
+    <string name="filter">Filter</string>
+    <string name="title">Title</string>
+    <string name="distance">Distance</string>
+    <string name="location">Location</string>
+    <string name="creater">Creator</string>
+    <string name="popular">Popular</string>
+    <string name="time">Time</string>
+    <string name="finished">Finished</string>
+    <string name="date">Date</string>
+    <string name="notstarted">Not Started</string>
+    <string name="applay">Apply</string>
+    <string name="resetcancel">Reset &amp; Cancel</string>
+
+    <!--    Create event attributes    -->
+    <string name="tv_private_event">Private Event</string>
+    <string name="tv_public_event">Public Event</string>
+    <string name="tv_event_title">Event Title</string>
+    <string name="tv_description">Description</string>
+    <string name="tv_start_date">Start Date</string>
+    <string name="tv_start_time">Start Time</string>
+    <string name="tv_cover_photo">Cover Photo</string>
+    <string name="tv_choose_file">Choose File</string>
+    <string name="tv_no_file_chosen">No File Chosen</string>
+    <string name="tv_venue">Venue</string>
+    <string name="tv_detail">Detail</string>
+    <string name="tv_event_category">Event Category</string>
+    <string name="tv_comments_allowed">Comments Allowed</string>
+    <string name="tv_add_people">Add People</string>
+    <string name="tv_create">Create</string>
+    <string name="tv_update">Update</string>
+    <string name="tv_add">Add</string>
+    <string name="tv_pincode">Enter Pincode</string>
+    <string name="tv_approval_required">Approval Required</string>
+    <string name="tv_pin_code">Pin Code</string>
+    <string name="tv_user_list">User List</string>
+    <string name="tv_noeventsfound">No Events Record Found</string>
+    <string name="alert_msg_unknown">No More Result Found</string>
+    <string name="status_attending">Attending?</string>
+    <string name="status_cancel">Cancel</string>
+    <string name="tv_select_language">Switch Language</string>
+    <string name="button_invite_text">INVITE FRIENDS TO JOIN OUR</string>
+    <string name="button_create_group">CREATE GROUP</string>
+    <string name="button_manage_group">MANAGE BLOCKED USERS</string>
+    <string name="button_add">ADD</string>
+
+    <string name="error_msg_field_required">Please fill the required field</string>
+    <string name="tv_my_groups">My Groups</string>
+    <string name="tv_language">English</string>
+    <string name="tv_english">English</string>
+    <string name="tv_arabic">Arabic</string>
+    <string name="tv_sort_by">Sort By</string>
+
+    <!--user profile -->
+    <string name="follower">Followers</string>
+    <string name="tv_myEvents">My Events</string>
+    <string name="tv_attending">I\'m Attending </string>
+    <string name="tv_users_attending">User`s Attending</string>
+    <string name="tv_users_event">User`s Event</string>
+    <string name="tv_my_profile">My Profile</string>
+    <string name="tv_follow">Follow</string>
+    <string name="tv_update_event">Update Event</string>
+    <string name="txt_overview">Overview</string>
+    <string name="txt_people">People</string>
+    <string name="txt_comments">Comments</string>
+    <string name="txt_venue">Venue:</string>
+    <string name="txt_createdby">Created by:</string>
+    <string name="txt_invite_selected">INVITE SELECTED PEOPLE</string>
+    <string name="txt_invite_friends">INVITE FRIENDS TO JOIN OUR</string>
+    <string name="txt_attending">Attending</string>
+    <string name="tvsend">SEND</string>
+    <string name="txt_invite">Invite</string>
+    <string name="txt_userList">User List</string>
+    <string name="txt_edit">Edit</string>
+    <string name="txt_addEvent">Filter</string>
+    <string name="tv_pin_code_instruction">Pin Code is required to attend this event.</string>
+    <string name="txt_eventDetail">Event Detail</string>
+    <string name="tv_cancel">Cancel</string>
+
+    <string name="tv_full_name">Full Name</string>
+    <string name="tv_contact">Mobile Number</string>
+    <string name="tv_address">Address</string>
+    <string name="tv_save">SAVE</string>
+    <string name="text_media">Media</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_video">Video</string>
+    <string name="tv_internet">Please check your internet connection</string>
+    <string name="tv_create_group">Create Group</string>
+    <string name="tv_ok">Ok</string>
+    <string name="tv_enter_group_name">Enter Group Name</string>
+    <string name="tv_delete_group">Do you want to delete this group?</string>
+    <string name="tv_delete_group_member">Do you want to delete this group member?</string>
+    <string name="tv_block_group_member">Do you want to block this group member?</string>
+    <string name="tv_remove_from_block_list">Do you want to remove this user from block list?</string>
+    <string name="tv_photo_selection_size">Maximum 10 photos allowed.</string>
+    <string name="tv_photo_select">Please select images to download</string>
+    <string name="tv_video_select">Please select videos to download</string>
+    <string name="button_view_comments_text">View Comments</string>
+    <string name="tv_message">Message</string>
+    <string name="tv_submit">Submit</string>
+    <string name="error_msg_username">Username is required</string>
+    <string name="tv_user_profile_title">My Profile</string>
+    <string name="tv_followersEvents">Following Events</string>
+    <string name="tv_edit_profile">Edit Profile</string>
+
+    <string name="tv_delete_from_gallery_list">Do you want to remove these images?</string>
+    <string name="tv_delete_from_video_list">Do you want to remove these videos?</string>
+    <string name="tv_media_download">You have successfully downloaded the selected media</string>
+    <string name="error_msg_event_title">Event title is required</string>
+    <string name="error_msg_event_description">Event description is required</string>
+    <string name="error_msg_event_start_date">Event start date is required</string>
+    <string name="error_msg_event_start_time">Event start time is required</string>
+    <string name="error_msg_event_location">Event location is required</string>
+    <string name="error_msg_event_detail">Event detail is required</string>
+    <string name="error_msg_event_category">Event category is required</string>
+    <string name="tv_group_success">Group Created Successfully</string>
+    <string name="tv_unfollow">Following</string>
+
+    <string name="tv_select_users">Select Users</string>
+    <string name="tv_notification">Notifications</string>
+    <string name="tv_update_group">Update Group</string>
+    <string name="tv_select_atleast">Select atleast one user</string>
+    <string name="tv_users_added_success">User added to the group succesfully</string>
+    <string name="error_msg_event_image">Event Image is required</string>
+    <string name="tv_contactus">Contact us</string>
+    <string name="tv_areaofinterest">Area of Interest</string>
+    <string name="tv_EventCat">I m Interested on ( Event Category )</string>
+    <string name="tv_EventCatSelection">If no Selection you will receive notification on all types</string>
+    <string name="tv_visibility">Visibility</string>
+    <string name="tv_show">Show Events I m Attending</string>
+    <string name="tv_mute">Mute All Notification </string>
+    <string name="tv_termsandcondition">Terms and Conditions</string>
+    <string name="tv_aboutUS">About Us</string>
+    <string name="tv_contactUS">Contact Us</string>
+    <string name="hint_enter_group_name">Enter Group Name</string>
+
+    <string name="tv_followers">Followers</string>
+    <string name="title_blocked_user_list">Blocked Users</string>
+    <string name="alert_select_media">Please select media to delete</string>
+    <string name="alert_select_image">Please select image</string>
+    <string name="alert_select_video">Please select video</string>
+    <string name="alert_permission_denied">Permission Denied, Please allow to proceed !</string>
+    <string name="alert_permission_required_image">This permission is required to upload image</string>
+    <string name="alert_permission_required_video">This permission is required to upload video</string>
+    <string name="alert_finish_uploading">Please wait until finish uploading....</string>
+    <string name="alert_share_intent_group">Check out Share Hub app. I use this to search for events in the city. Get it for free at </string>
+    <string name="alert_media_download">Share Hub Media Download</string>
+    <string name="alert_preparing_media_download">Preparing to download</string>
+    <string name="alert_media_download_complete">Download Complete</string>
+    <string name="alert_media_file_download"> File Downloaded</string>
+    <string name="alert_media_downloaded">Downloaded</string>
+
+    <string name="alert_logout_txt">Are you sure you want to log out?</string>
+    <string name="alert_logout">Log Out</string>
+    <string name="alert_logout_cancel">Cancel</string>
+    <string name="alert_openGallery">Choose from Gallery</string>
+    <string name="alert_openCamera">Open Camera</string>
+    <string name="tv_Followers">Followers</string>
+    <string name="tv_contact_profile">Contact no:</string>
+    <string name="tv_email_profile">Email:</string>
+
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="mar">Mar</string>
+    <string name="apr">Apr</string>
+    <string name="may">May</string>
+    <string name="jun">Jun</string>
+    <string name="jul">Jul</string>
+    <string name="aug">Aug</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="dec">Dec</string>
+
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="tv_contentPages_termsandcondition">Terms and condition</string>
+    <string name="tv_contentPages_aboutUS">About us</string>
+    <string name="tv_contentPages_contactUS">Contact us</string>
+    <string name="tv_select_category">Select Category</string>
+    <string name="tv_cancel_txt">Are you sure you want to cancel this event?</string>
+    <string name="tv_yes">Yes</string>
+    <string name="tv_no">No</string>
+    <string name="tv_open_media">Be the first one to upload photos.</string>
+    <string name="error_msg_pincode">Valid Pincode is required</string>
+    <string name="tv_no_comments">no comments found</string>
+    <string name="tv_markRead">Mark All Read</string>
+    <string name="tv_Pending">Pending</string>
+    <string name="tv_countries">Countries</string>
+    <string name="tv_view_media">View all Media</string>
+    <string name="txt_open_camera">Open Camera</string>
+    <string name="txt_choose_from_gallery">Choose from Gallery</string>
+    <string name="txt_skip">Skip</string>
+    <string name="error_msg_group_user">please  add one group or user</string>
+
+
+    <string name="tv_select">Select</string>
+    <string name="msg_select_photos_download">Please select photo(s) to download</string>
+    <string name="msg_select_videos_download">Please select video(s) to download</string>
+
+    <string name="error_msg_not_approved_for_media">You need an approval to access events media</string>
+    <string name="error_msg_not_attending_for_media">You cannot access the event\'s media as you are not in the list of event attendees.Please click "Attending"</string>
+    <string name="tv_pin_code_media">Pin Code is required to access this event\'s media</string>
+
+
+    <!-- AUTOCOMPLETE -->
+
+    <!-- Hint for the autocomplete widget's initial query and autocomplete prediction's query field. -->
+    <string name="autocomplete_query_hint" translatable="false">(Initial) Query</string>
+
+    <!-- Hint for the autocomplete fragment's hint. -->
+    <string name="autocomplete_hint_hint" translatable="false">(Fragment-only) Hint</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's country field. -->
+    <string name="autocomplete_country_hint" translatable="false">Country</string>
+
+    <!-- Hint Text for the autocomplete prediction's and widget's type filter field. -->
+    <string name="autocomplete_type_filter" translatable="false">Type Filter</string>
+
+
+    <!-- Label for the autocomplete prediction's and widget's location bias related fields. -->
+    <string name="autocomplete_location_bias_label" translatable="false">Location Bias (format: -33.2, 128.2)</string>
+
+    <!-- Label for the autocomplete prediction's and widget's location restriction related fields. -->
+    <string name="autocomplete_location_restriction_label" translatable="false">Location Restriction (format: -33.2, 128.2)</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's location southwest field. -->
+    <string name="autocomplete_location_south_west_hint" translatable="false">South West (lat, lng)</string>
+
+    <!-- Hint for the autocomplete prediction's and widget's location northeast field. -->
+    <string name="autocomplete_location_north_east_hint" translatable="false">North East (lat, lng)</string>
+
+
+    <!-- Text for enabling autocomplete prediction's and widget's type filter field. -->
+    <string name="autocomplete_use_type_filter" translatable="false">Use TypeFilter?</string>
+
+    <!-- Text for enabling autocomplete prediction's use of session tokens. -->
+    <string name="autocomplete_use_session_token" translatable="false">(Predictions-only) Use session token?</string>
+
+    <!-- Text for autocomplete activity mode (overlay or fullscreen) checkbox. -->
+    <string name="autocomplete_activity_overlay_mode" translatable="false">(Activity-only) Overlay mode?</string>
+
+
+    <!-- Text for the autocomplete fragment update button. -->
+    <string name="autocomplete_fragment_update_button" translatable="false">Update Fragment</string>
+
+    <!-- Text for starting the autocomplete activity button. -->
+    <string name="autocomplete_activity_button" translatable="false">Open Activity</string>
+
+    <!-- Text for the fetch autocomplete predictions submit button. -->
+    <string name="fetch_autocomplete_predictions_button" translatable="false">Fetch Predictions</string>
+
+    <!-- Text for checkbox to set custom list of Place Fields. -->
+    <string name="use_custom_fields" translatable="false">Manually set Place Fields?</string>
+
+    <string name="error_alert_message_invalid_bounds" translatable="false">Unable to parse Location Bias or Location Restriction. Expected format: "33, 128"</string>
+    <!-- title for error alerts. -->
+    <string name="error_alert_title" translatable="false">Uh-Oh!</string>
+
+    <string name="error_some_thing_went_wrong">Something went wrong. Please try again</string>
+
+
+    <string name="msg_gps">Please enable GPS</string>
+    <string name="tv_all_followers">All Followers</string>
+
+    <string name="tv_errordynamic_share">Cannot share please try again</string>
+
+</resources>

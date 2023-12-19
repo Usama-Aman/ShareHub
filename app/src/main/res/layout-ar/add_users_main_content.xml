@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/_56sdp"
+    android:background="@color/colorGrayLightMore">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/calibri"
+        android:background="@drawable/shadow_bg_edittext"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableRight="@drawable/search"
+        android:ems="20"
+        android:gravity="right"
+        android:hint="@string/search_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnAdd"
+        android:layout_below="@+id/etSearch">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvGroupsSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:gravity="right"
+                android:text="Groups"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_12sdp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGroupsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvGroupsSection"
+                android:scrollbars="vertical"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvUsersSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rvGroupsList"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="right"
+                android:text="Users"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_12sdp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvUsersList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvUsersSection"
+                android:scrollbars="vertical" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/btn_login_selector"
+        android:gravity="center"
+        android:text="@string/tv_add"
+        android:fontFamily="@font/calibrib"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_medium" />
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/main.appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_360sdp"
+        android:background="@color/bggray"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:collapsedTitleGravity="center"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+
+            >
+
+            <utility.photoview.PhotoView
+                android:id="@+id/ivPreview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_360sdp"
+                android:layout_below="@+id/ivDelete"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_placeholder" />
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:fitsSystemWindows="true"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/comment_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayLightMore">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorGrayLight" />
+
+                <EditText
+                    android:id="@+id/comment_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_110sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/bg_edittext"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="top|right"
+                    android:hint="@string/txt_comments"
+                    android:inputType="textMultiLine"
+                    android:padding="@dimen/_10sdp"
+                    android:textAppearance="@style/tab_text"
+                    android:textSize="@dimen/_10sdp" />
+
+                <Button
+                    android:id="@+id/btpostComment"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_below="@+id/comment_et"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/sort_filter_bg"
+                    android:fontFamily="@font/calibrib"
+                    android:text="@string/tvsend"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/_8sdp" />
+
+                <CheckBox
+                    android:id="@+id/cbLike"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_below="@id/comment_et"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/like_selector"
+                    android:button="@null" />
+
+                <Button
+                    android:id="@+id/btShare"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_below="@id/comment_et"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_toLeftOf="@id/cbLike"
+                    android:background="@drawable/ic_image_share" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/comment_ly"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/tvDataNotFound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/tv_no_comments"
+                    android:textColor="@color/txtlightgray"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone">
+
+                    <com.wang.avi.AVLoadingIndicatorView
+                        android:id="@+id/avi"
+                        style="@style/AVLoadingIndicatorView"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        app:indicatorColor="#939393"
+                        app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

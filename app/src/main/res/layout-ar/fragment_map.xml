@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingPrefix">
+
+<ImageView
+    android:id="@+id/ivHomeMap"
+    android:layout_width="@dimen/_45sdp"
+    android:layout_height="@dimen/_45sdp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/ic_gcam_map"
+    android:visibility="gone"
+    android:layout_marginBottom="@dimen/_10sdp"/>
+
+    <RelativeLayout
+        android:id="@+id/rlMainMap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:background="@drawable/home_search_bar_bg">
+
+        <EditText
+            android:id="@+id/search_et"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/home_search_bar_right"
+            android:drawableRight="@drawable/search"
+            android:drawablePadding="@dimen/_5sdp"
+            android:hint="@string/search_hint"
+            android:fontFamily="@font/calibri"
+            android:inputType="text"
+            android:paddingRight="@dimen/_10sdp"
+            android:textAppearance="@style/tab_text"
+            android:textColor="@color/txtlightgray"
+            android:textSize="@dimen/_10sdp" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/bar_code_bt"
+            android:background="@color/barColor"></View>
+
+        <Button
+            android:id="@+id/bar_code_bt"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@drawable/scan" />
+    </RelativeLayout>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:indicatorColor="#939393"
+            app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+    </FrameLayout>
+</RelativeLayout>
